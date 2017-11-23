@@ -1,21 +1,16 @@
 <?php
 
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
+// Setup
+require get_template_directory() . '/lib/setup.php';
 
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
+// Enqueue-scripts
+require get_template_directory() . '/lib/enqueue-scripts.php';
 
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
+// Filters and hooks
+require get_template_directory() . '/lib/filters.php';
 
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
+// Widgets
+require get_template_directory() . '/lib/widgets.php';
+
+// Nav walker
+require get_template_directory() . '/lib/nav-walker.php';
