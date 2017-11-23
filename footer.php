@@ -5,7 +5,7 @@
  * @package portfolio
  */
 ?>
-
+</div>
 	<footer role="footer">
 
 	</footer>
