@@ -23,9 +23,7 @@
 <div id="wrapper">
 
 	<header role="header">
-        <nav role="navigation">
-
-		</nav>
+        <?php get_template_part('template-parts/content', 'nav'); ?>
 	</header>
 
     <div class="container-fluid">
