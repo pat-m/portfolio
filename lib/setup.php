@@ -44,7 +44,7 @@ if ( ! function_exists( 'portfolio_setup' ) ) :
 
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus( array(
-            'main-nav' => esc_html__( 'Menu Principal', 'portfolio' ),
+            'main-navigation' => esc_html__( 'Menu Principal', 'portfolio' ),
         ) );
 
         /*
