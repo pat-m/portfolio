@@ -14,3 +14,6 @@ require get_template_directory() . '/lib/widgets.php';
 
 // Nav walker
 require get_template_directory() . '/lib/nav-walker.php';
+
+// templates Tags
+require get_template_directory() . '/lib/template-tags.php';
